@@ -37,7 +37,7 @@ To remove the environment:
 conda remove -n <envname> --all
 ```
 ## FSL
-add the following code into .profile:
+Add the following code into .profile:
 ```
 FSLDIR=/usr/local/fsl
 . ${FSLDIR}/etc/fslconf/fsl.sh
@@ -45,3 +45,7 @@ PATH=${FSLDIR}/bin:${PATH}
 export FSLDIR PATH
 ```
 then, **close SSH connection and reconnect to the server.**
+To open FSL:
+```
+fsl
+```
