@@ -46,7 +46,8 @@ pip install <packagename>
 conda install <packagename>
 ```
 or google the guide of installing the package.
--
+
+
 To install specific edition of a package: (take *numpy* for instance)
 ```
 conda search numpy
