@@ -12,7 +12,7 @@ sudo adduser <username> sudo
 ```
 When adding new user as sudoer.
 
-## For Other User
+## For Other Users
 When using any command start with _sudo_, please ask sudoers for help.
 ### Change password
 ```
@@ -36,3 +36,12 @@ To remove the environment:
 ```
 conda remove -n <envname> --all
 ```
+##FSL
+add the following code into .profile:
+```
+FSLDIR=/usr/local/fsl
+. ${FSLDIR}/etc/fslconf/fsl.sh
+PATH=${FSLDIR}/bin:${PATH}
+export FSLDIR PATH
+```
+then, **close the SSH and reconnect to the server.**
