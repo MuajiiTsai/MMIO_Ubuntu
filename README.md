@@ -36,6 +36,22 @@ To remove the environment:
 ```
 conda remove -n <envname> --all
 ```
+To check all environments in your account:
+```
+conda info -e
+```
+To install a new package:
+```
+pip install <packagename>
+conda install <packagename>
+```
+or google the guide of installing the package.
+-------------------------------------------------
+To install specific edition of a package: (take *numpy* for instance)
+```
+conda search numpy
+conda install numpy=1.11.2
+```
 ## FSL
 Add the following code into .profile:
 ```
