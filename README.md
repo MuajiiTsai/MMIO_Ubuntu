@@ -3,6 +3,7 @@ A note of Ubuntu(Linux) commands
 
 ## For Sudoers
 ### Add user
+#### 1. 
 ```
 sudo adduser <username>
 ```
@@ -11,6 +12,10 @@ or
 sudo adduser <username> sudo
 ```
 When adding new user as sudoer.
+#### 2. Change the permission (drwx------)
+```
+sudo chmod 700 /home/<username>
+```
 
 ## For Other Users
 When using any command start with _sudo_, please ask sudoers for help.
