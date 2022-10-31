@@ -44,4 +44,4 @@ FSLDIR=/usr/local/fsl
 PATH=${FSLDIR}/bin:${PATH}
 export FSLDIR PATH
 ```
-then, **close the SSH and reconnect to the server.**
+then, **close SSH connection and reconnect to the server.**
