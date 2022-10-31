@@ -36,7 +36,7 @@ To remove the environment:
 ```
 conda remove -n <envname> --all
 ```
-##FSL
+## FSL
 add the following code into .profile:
 ```
 FSLDIR=/usr/local/fsl
