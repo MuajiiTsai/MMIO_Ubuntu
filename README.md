@@ -28,19 +28,19 @@ sh Miniconda3-latest-Linux-x86_64.sh
 ```
 conda create -n <envname> (python=3.x)
 ```
-#### To activate/deactivate the environment:
+#### Activate/Deactivate the environment:
 ```
 conda activate/deactivate <envname>
 ```
-#### To remove the environment:
+#### Remove the environment:
 ```
 conda remove -n <envname> --all
 ```
-#### To check all environments in your account:
+#### Check all environments in your account:
 ```
 conda info -e
 ```
-#### To install a new package:
+#### Install a new package:
 ```
 pip install <packagename>
 conda install <packagename>
@@ -48,7 +48,7 @@ conda install <packagename>
 or google the guide of installing the package.
 
 
-#### To install specific edition of a package: (take *numpy* for instance)
+#### Install specific edition of a package: (take *numpy* for instance)
 ```
 conda search numpy
 conda install numpy=1.11.2
@@ -62,7 +62,7 @@ PATH=${FSLDIR}/bin:${PATH}
 export FSLDIR PATH
 ```
 then, **close SSH connection and reconnect to the server.**
-To open FSL:
+#### To open FSL:
 ```
 fsl
 ```
