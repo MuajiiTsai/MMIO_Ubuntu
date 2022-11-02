@@ -31,7 +31,7 @@ sh Miniconda3-latest-Linux-x86_64.sh
 ```
 #### Create a virtual environment
 ```
-conda create -n <envname> (python=3.x)
+conda create -n <envname> <python=3.x> (optional, the default is the latest stable edition)
 ```
 #### Activate/Deactivate the environment
 ```
@@ -50,7 +50,7 @@ conda info -e
 pip install <packagename>
 conda install <packagename>
 ```
-or google the guide of installing the package.
+or google the official guide of installing the package.
 
 
 #### Install specific edition of a package (take *numpy* for instance)
