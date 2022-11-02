@@ -23,6 +23,14 @@ When using any command start with _sudo_, please ask sudoers for help.
 ```
 $ passwd
 ```
+## Connect to Server Using CML
+Entering the following commands in your terminal:
+```
+ssh <username>@<hostname> -p <port>
+```
+*Hostname*: ip address of the remote server.  
+You can also use SSH service via visualized softwares. (MobaXTerm, FileZilla, etc.)
+
 ## Install Miniconda & create a virtual environment
 #### Install Miniconda
 ```
@@ -102,10 +110,3 @@ If the output responds with "Command not found", move on to installing OpenSSH C
 ```
 sudo apt install openssh-client
 ```
-## Connect to Server Using CML
-Entering the following commands in your terminal:
-```
-ssh <username>@<hostname> -p <port>
-```
-*Hostname*: ip address of the remote server.  
-You can also use SSH service via visualized softwares. (MobaXTerm, FileZilla, etc.)
