@@ -1,5 +1,5 @@
 # MMIO_Ubuntu
-A note of Ubuntu(Linux) commands
+A note of Ubuntu (Linux) commands
 
 ## For Sudoers
 ### Add user
