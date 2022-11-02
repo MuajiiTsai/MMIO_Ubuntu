@@ -71,7 +71,7 @@ then, **close SSH connection and reconnect to the server.**
 ```
 fsl
 ```
-
+![alt text](https://github.com/MuajiiTsai/MMIO_Ubuntu/blob/main/img/fsl.png)
 # SSH Settings
 ## Server
 To check whether SSH is available on the remote server, run:
