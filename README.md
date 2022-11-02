@@ -29,23 +29,23 @@ $ passwd
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 sh Miniconda3-latest-Linux-x86_64.sh
 ```
-#### Create a virtual environment**
+#### Create a virtual environment
 ```
 conda create -n <envname> (python=3.x)
 ```
-#### Activate/Deactivate the environment:
+#### Activate/Deactivate the environment
 ```
 conda activate/deactivate <envname>
 ```
-#### Remove the environment:
+#### Remove the environment
 ```
 conda remove -n <envname> --all
 ```
-#### Check all environments in your account:
+#### Check all environments in your account
 ```
 conda info -e
 ```
-#### Install a new package:
+#### Install a new package
 ```
 pip install <packagename>
 conda install <packagename>
@@ -53,7 +53,7 @@ conda install <packagename>
 or google the guide of installing the package.
 
 
-#### Install specific edition of a package: (take *numpy* for instance)
+#### Install specific edition of a package (take *numpy* for instance)
 ```
 conda search numpy
 conda install numpy=1.11.2
