@@ -1,6 +1,14 @@
 # MMIO_Ubuntu
 A note of Ubuntu (Linux) commands
 
+## Connect to the Server Using CML
+Entering the following commands in your terminal:
+```
+ssh <username>@<hostname> -p <port>
+```
+*Hostname*: ip address of the remote server.  
+You can also use SSH service via visualized softwares. (MobaXTerm, FileZilla, etc.)
+
 ## For Sudoers
 ### Add user
 #### 1. 
@@ -23,14 +31,6 @@ When using any command start with _sudo_, please ask sudoers for help.
 ```
 $ passwd
 ```
-## Connect to Server Using CML
-Entering the following commands in your terminal:
-```
-ssh <username>@<hostname> -p <port>
-```
-*Hostname*: ip address of the remote server.  
-You can also use SSH service via visualized softwares. (MobaXTerm, FileZilla, etc.)
-
 ## Install Miniconda & create a virtual environment
 #### Install Miniconda
 ```
