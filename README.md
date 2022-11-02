@@ -107,5 +107,5 @@ Entering the following commands in your terminal:
 ```
 ssh <username>@<hostname> -p <port>
 ```
-*Hostname*: ip address of the remote server
+*Hostname*: ip address of the remote server. \r
 You can also use SSH service via visualized softwares like MobaXTerm, FileZilla, etc.
