@@ -71,3 +71,35 @@ then, **close SSH connection and reconnect to the server.**
 ```
 fsl
 ```
+
+# SSH Settings
+## Server
+To check whether SSH is available on the remote server, run:
+```
+ssh localhost
+```
+If the output responds with "Connection refused", move on to **installing SSH on the server**.
+#### 1. Run the following command to install the SSH server
+```
+sudo apt-get install openssh-server ii
+```
+#### 2. Run “ssh localhost” to check if the installation is completed. Enter yes or y to continue.
+#### 3. To check the status of the service, enter:
+```
+sudo service ssh status
+```
+#### 4. The output should respond that the service is active. You will need to enable it when the service is down by running the command:
+```
+systemctl start sshd
+```
+## Client
+To check whether you have the SSH client on your system, run the command:
+```
+ssh
+```
+If the output responds with "Command not found", move on to installing OpenSSH Client.
+#### Run the following command to install the SSH client:
+```
+sudo apt install openssh-client
+```
+You can also use SSH service via visualized softwares like MobaXTerm, FileZilla, etc.
