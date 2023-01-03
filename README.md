@@ -24,9 +24,17 @@ When adding new user as sudoer.
 ```
 sudo chmod 700 /home/<username>
 ```
+#### 3. Check users' disk usage (du)
+```
+sudo du -sh /home/*
+```
 
 ## For Other Users
 When using any command start with _sudo_, please ask sudoers for help.
+### Check Linux Disk Space
+```
+df
+```
 ### Change password
 ```
 $ passwd
