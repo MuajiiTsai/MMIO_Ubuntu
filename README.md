@@ -1,8 +1,8 @@
 # MMIO_Ubuntu
 A note of Ubuntu (Linux) commands
 
-## Connect to the Server Using CML
-Entering the following commands in your terminal:
+## Connect to the Server Using Command Line
+Entering the following command in your terminal:
 ```
 ssh <username>@<hostname> -p <port>
 ```
@@ -118,3 +118,22 @@ If the output responds with "Command not found", move on to installing OpenSSH C
 ```
 sudo apt install openssh-client
 ```
+
+## Cuda
+https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#removing-cuda-toolkit-and-driver  
+
+#### Cuda uninstall
+To remove CUDA Toolkit:  
+```
+sudo apt-get --purge remove "cuda*" "*cublas*" "*cufft*" "*cufile*" "*curand*" \
+ "*cusolver*" "*cusparse*" "*gds-tools*" "*npp*" "*nvjpeg*" "nsight*" "*nvvm*"
+```
+To remove NVIDIA Drivers:  
+```
+sudo apt-get --purge remove "*nvidia*" "libxnvctrl*"
+```
+To clean up the uninstall:  
+```
+sudo apt-get autoremove
+```
+
