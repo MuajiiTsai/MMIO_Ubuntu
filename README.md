@@ -19,7 +19,7 @@ or
 ```
 sudo adduser <username> sudo
 ```
-When adding new user as sudoer.
+When adding a new user as sudoer.
 #### 2. Change the permission (drwx------)
 ```
 sudo chmod 700 /home/<username>
