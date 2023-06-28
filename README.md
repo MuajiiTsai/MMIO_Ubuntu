@@ -1,6 +1,4 @@
 # MMIO_Ubuntu
-A note for some Ubuntu (Linux) commands
-
 ## Connect to the Server Using Command Line
 Entering the following command in your terminal:
 ```
