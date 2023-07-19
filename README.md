@@ -37,11 +37,7 @@ df
 ```
 $ passwd
 ```
-## Install Miniconda & create a virtual environment
-#### Install Miniconda
-```
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-sh ./Miniconda3-latest-Linux-x86_64.sh
+## Create a virtual environment
 ```
 #### Create a virtual environment
 ```
