@@ -37,8 +37,6 @@ df
 ```
 $ passwd
 ```
-## Create a virtual environment
-```
 #### Create a virtual environment
 ```
 conda create -n <envname> <python=3.x> (optional, the default is the latest stable edition)
