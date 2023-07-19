@@ -37,6 +37,7 @@ df
 ```
 $ passwd
 ```
+### Miniconda
 #### Create a virtual environment
 ```
 conda create -n <envname> <python=3.x> (optional, the default is the latest stable edition)
