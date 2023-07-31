@@ -129,4 +129,5 @@ To clean up the uninstall:
 ```
 sudo apt-get autoremove
 ```
-
+## tmux
+Reference: https://blog.gtwang.org/linux/linux-tmux-terminal-multiplexer-tutorial/
