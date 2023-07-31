@@ -40,15 +40,15 @@ $ passwd
 ### Miniconda
 #### Create a virtual environment
 ```
-conda create -n <envname> <python=3.x> (optional, the default is the latest stable edition)
+conda create -n {envname} python=3.x 
 ```
 #### Activate/Deactivate the environment
 ```
-conda activate/deactivate <envname>
+conda activate/deactivate {envname}
 ```
 #### Remove the environment
 ```
-conda remove -n <envname> --all
+conda remove -n {envname} --all
 ```
 #### Check all environments in your account
 ```
@@ -56,8 +56,8 @@ conda info -e
 ```
 #### Install a new package
 ```
-pip install <packagename>
-conda install <packagename>
+pip install {packagename}
+conda install {packagename}
 ```
 or google the official guide of installing the package.
 
